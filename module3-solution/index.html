@@ -4,22 +4,66 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
     <title>Bootstrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>         <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+       <div class="navbar-brand">
+            <a href="index.html"><h1>FOOD,LLC</h1></a>
+       </div>
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+               <a href="menu-categories.html">
+                <br class="hidden-xs"> chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+    <div id="main-content" class="container">
+      <div class="jumbotron">
+        <div id="deliver" class="text-center">Our Menu</div>
 
+        <div id="home-tiles" class="row">
+         <div class="col-md-4 col-sm-6 col-xs-12">
+           <div id="chicken-tile"><span>Chicken</span>
+            <p>Nulla vestibulum sapien congue ullamcorper luctus. Fusce sem nibh, malesuada at orci et, aliquam convallis sem. Quisque vel sollicitudin arcu. Praesent sagittis maximus ante sed placerat. Pellentesque convallis vulputate eros id ullamcorper. Duis nec tortor hendrerit, mattis lectus vitae, mollis sem. Vestibulum ornare orci sit amet diam vestibulum hendrerit. Aenean augue felis, bibendum sed velit ut, sodales auctor libero. In porta euismod scelerisque. Fusce ornare nibh a ligula pretium, vel ultrices diam ornare. Curabitur consectetur feugiat pellentesque.
+              <a href="index.html" class="visible-xs" >BACK TO TOP</a></p>
+           </div>
+            </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+           <div id="beef-tile"><span>Beef</span>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium sem rhoncus pulvinar lobortis. Vivamus a malesuada justo. Cras urna mi, laoreet et tellus laoreet, vehicula commodo velit. Proin id dapibus nisi. Nunc tristique felis mauris, nec cursus ante luctus nec. In fringilla dui laoreet, lacinia sem vel, dictum dolor. Donec id sapien et odio fermentum egestas scelerisque non dolor. Integer consectetur, dui in convallis facilisis, ipsum nisl cursus purus, eget accumsan tortor ligula id metus. In congue blandit facilisis. Vivamus semper, dui et dictum cursus, ligula lorem dapibus est, eget molestie enim lectus et felis. Nulla metus felis, fringilla sit amet luctus ac, lobortis quis dolor. Suspendisse porttitor faucibus eros id finibus. Nam neque sem, placerat et tincidunt at, finibus id arcu. Donec suscipit blandit magna ac aliquet. Suspendisse pellentesque rutrum purus, a pellentesque elit tincidunt vitae. Quisque sodales purus in dui sollicitudin, quis placerat nulla rutrum.</p>
+            </div>
+           </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+         <div id="sushi-tile"><span>Sushi</span>
+           <p>Sed et odio vestibulum, pellentesque mi et, viverra erat. Vestibulum varius lorem sed quam porta sagittis. Proin a sollicitudin mauris. Sed non lorem vel leo euismod accumsan egestas at massa. Sed condimentum sollicitudin turpis. Donec ultricies sit amet ipsum ac vulputate. Praesent viverra malesuada magna, at tincidunt mauris vulputate eu. Duis cursus varius elit. Suspendisse laoreet, velit a congue fringilla, lacus sapien dignissim velit, sit amet dapibus ex enim ut risus. Suspendisse ex dolor, venenatis id nibh sed, accumsan vehicula risus. Praesent varius justo vel tempor lacinia. Nulla vulputate, massa feugiat pellentesque placerat, mi justo vulputate metus, a rutrum erat ante ut tortor.</p>
+         </div>
+          </div>
+          </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
