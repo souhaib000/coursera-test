@@ -27,13 +27,7 @@ body{
   margin-bottom: 0;
   line-height: .75;
 }
-.sr-only{
-font-family: initial;
-margin-bottom: 20px;
-background:#4E4E4E ;
-position: absolute;
-}
-#nav-list {
+  #nav-list {
   font-family: 'lora', sans-serif;
   font-size: 1em ;
   font-weight: bold;
